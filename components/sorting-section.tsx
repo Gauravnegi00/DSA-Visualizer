@@ -81,17 +81,16 @@ export default function SortingSection() {
 
           await new Promise((resolve) => setTimeout(resolve, 2000))
 
-          // Swap values
+         
           const temp = newArray[j]
           newArray[j] = newArray[j + 1]
           newArray[j + 1] = temp
           setDisplayArray([...newArray])
 
-          // Reset animations
           divArr[j].style.animation = ""
           divArr[j + 1].style.animation = ""
 
-          // Add iteration
+          
           const iterationDiv = (
             <div key={count} className="flex items-center gap-4 mb-4">
               <h3 className="text-lg font-medium min-w-[120px]">{`Iteration No ${count}`}</h3>
@@ -113,7 +112,7 @@ export default function SortingSection() {
           setIterations((prev) => [...prev, iterationDiv])
           count++
 
-          // Reset color
+        
           divArr[j].classList.remove("bg-red-500")
           divArr[j + 1].classList.remove("bg-red-500")
           divArr[j].classList.add("bg-primary")
@@ -153,17 +152,16 @@ export default function SortingSection() {
 
         await new Promise((resolve) => setTimeout(resolve, 2000))
 
-        // Swap values
         const temp = newArray[i]
         newArray[i] = newArray[minIndex]
         newArray[minIndex] = temp
         setDisplayArray([...newArray])
 
-        // Reset animations
+       
         divArr[i].style.animation = ""
         divArr[minIndex].style.animation = ""
 
-        // Add iteration
+     
         const iterationDiv = (
           <div key={count} className="flex items-center gap-4 mb-4">
             <h3 className="text-lg font-medium min-w-[120px]">{`Iteration No ${count}`}</h3>
@@ -184,7 +182,7 @@ export default function SortingSection() {
 
         setIterations((prev) => [...prev, iterationDiv])
 
-        // Reset color
+        
         divArr[i].classList.remove("bg-red-500")
         divArr[minIndex].classList.remove("bg-red-500")
         divArr[i].classList.add("bg-primary")
@@ -242,7 +240,7 @@ export default function SortingSection() {
       arr[rightIndex] = temp
       setDisplayArray([...arr])
 
-      // Reset animations
+     
       leftDiv.style.animation = ""
       rightDiv.style.animation = ""
 
@@ -328,7 +326,7 @@ export default function SortingSection() {
         newArray[j + 1] = key.toString()
       }
 
-      // Add iteration
+    
       const iterationDiv = (
         <div key={i} className="flex items-center gap-4 mb-4">
           <h3 className="text-lg font-medium min-w-[120px]">{`Iteration No ${i}`}</h3>

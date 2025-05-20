@@ -7,13 +7,12 @@ export default function AboutSection() {
   return (
     <div id="about-section" className="w-full h-[40vh] bg-[#130e0e61] flex border-t border-gray-700">
       <div className="w-[40%] h-full flex justify-center items-center relative">
-        <Image src="/placeholder.svg?height=200&width=200" alt="logo" width={200} height={200} className="mr-4" />
         <div className="flex flex-col">
-          <span className="text-xl font-normal tracking-[5px] font-poppins">MADE WITH LOVE</span>
-          <span className="text-xl font-normal tracking-[5px] font-poppins">BY DIVYANSHU</span>
+          <span className="text-xl font-normal tracking-[5px] font-poppins">MADE WITH </span>
+          <span className="text-xl font-normal tracking-[5px] font-poppins">BY Gaurav</span>
         </div>
         <div className="absolute bottom-[30px] font-cormorant uppercase tracking-[2px] right-[80px] text-gray-300">
-          &#169; Made with love by divyanshu rajwar
+          &#169; Made with  by Gaurav Ngi
         </div>
       </div>
 
@@ -21,7 +20,7 @@ export default function AboutSection() {
         <span className="mt-[40px] uppercase tracking-[3px] text-lg font-poppins">Connect with me</span>
         <ul className="list-none mt-[10px]">
           <Link
-            href="https://www.instagram.com/divyanshurajwar/?utm_source=qr&igsh=MTd2bjFlbnRxY3BxOQ%3D%3D"
+            href=""
             target="_blank"
           >
             <li className="leading-[30px] ml-[-107px] font-cormorant text-lg cursor-pointer hover:scale-110 transition-transform hover:text-accent">
@@ -29,14 +28,14 @@ export default function AboutSection() {
             </li>
           </Link>
           <Link
-            href="https://www.linkedin.com/in/divyanshu-rajwar-159804259/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            href=""
             target="_blank"
           >
             <li className="leading-[30px] ml-[-107px] font-cormorant text-lg cursor-pointer hover:scale-110 transition-transform hover:text-accent">
               LinkedIn
             </li>
           </Link>
-          <Link href="https://github.com/DivyanshuRajwar" target="_blank">
+          <Link href="" target="_blank">
             <li className="leading-[30px] ml-[-107px] font-cormorant text-lg cursor-pointer hover:scale-110 transition-transform hover:text-accent">
               Github
             </li>

@@ -68,7 +68,7 @@ export default function SearchingSection() {
       divArr[i].classList.add("bg-red-500")
       await new Promise((resolve) => setTimeout(resolve, 500))
 
-      // Add iteration
+    
       const iterationDiv = (
         <div key={count} className="flex items-center gap-4 mb-4">
           <h3 className="text-lg font-medium min-w-[120px]">{`Iteration No ${count}`}</h3>
@@ -330,13 +330,13 @@ export default function SearchingSection() {
         </div>
       )}
 
-      <div className="w-full max-w-5xl mx-auto mb-10">
+      <div className="w-full max-w-5xl mx-auto mt-20">
         <h1 className="text-4xl font-bold text-center">Searching Visualizer</h1>
       </div>
 
       <div className="w-full max-w-5xl mx-auto flex flex-col md:flex-row gap-8 px-4">
         <div className="w-full md:w-1/2 flex flex-col">
-          <div className="flex flex-wrap justify-center gap-4 mb-6">
+          <div className="flex flex-wrap justify-center gap-4 mt-10">
             <input
               ref={arrInputRef}
               type="text"
@@ -366,7 +366,7 @@ export default function SearchingSection() {
         </div>
 
         <div className="w-full md:w-1/2 flex flex-col">
-          <div className="flex flex-wrap justify-center gap-4 mb-6">
+          <div className="flex flex-wrap justify-center gap-4 mt-10">
             <input
               type="text"
               className="valueInput w-[150px] h-[55px] text-xl p-[5px] rounded-lg bg-transparent text-white border border-primary focus:border-accent focus:outline-none focus:ring-1 focus:ring-accent transition-all"

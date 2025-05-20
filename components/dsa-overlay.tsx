@@ -2,7 +2,7 @@
 
 export default function DsaOverlay() {
   return (
-    <div className="absolute w-full top-[100px] h-[80%] flex flex-col items-center">
+    <div className="absolute w-full top-[100px] h-[80%] flex flex-col items-center mt-20">
       <h3 className="text-[35px]">What is data structure?</h3>
       <p className="w-[89%] tracking-[1px] text-xl">
         Data structure is a way of organizing and storing data in a computer system so that it can be accessed and
@@ -11,7 +11,7 @@ export default function DsaOverlay() {
       </p>
 
       <div className="w-full h-[347px] flex items-center justify-around perspective-1000">
-        <div className="card relative w-[300px] h-[200px] transition-all duration-600 transform-style-preserve-3d perspective-1000 group">
+        <div className="card relative w-[300px] h-[300px] transition-all duration-600 transform-style-preserve-3d perspective-1000 group">
           <div className="cardFront absolute w-full h-full flex flex-col items-center backface-hidden transition-all duration-500 bg-white/30 rounded-2xl shadow-lg backdrop-blur-sm border border-white">
             <h3 className="w-full h-[50px] text-center text-[35px] mt-2">Array</h3>
             <p className="px-6 text-center">
@@ -29,7 +29,7 @@ export default function DsaOverlay() {
           </div>
         </div>
 
-        <div className="card relative w-[300px] h-[200px] transition-all duration-600 transform-style-preserve-3d perspective-1000 group">
+        <div className="card relative w-[300px] h-[300px] transition-all duration-600 transform-style-preserve-3d perspective-1000 group">
           <div className="cardFront absolute w-full h-full flex flex-col items-center backface-hidden transition-all duration-500 bg-white/30 rounded-2xl shadow-lg backdrop-blur-sm border border-white">
             <h3 className="w-full h-[50px] text-center text-[35px] mt-2">Stack</h3>
             <p className="px-6 text-center">
@@ -47,7 +47,7 @@ export default function DsaOverlay() {
           </div>
         </div>
 
-        <div className="card relative w-[300px] h-[200px] transition-all duration-600 transform-style-preserve-3d perspective-1000 group">
+        <div className="card relative w-[300px] h-[300px] transition-all duration-600 transform-style-preserve-3d perspective-1000 group">
           <div className="cardFront absolute w-full h-full flex flex-col items-center backface-hidden transition-all duration-500 bg-white/30 rounded-2xl shadow-lg backdrop-blur-sm border border-white">
             <h3 className="w-full h-[50px] text-center text-[35px] mt-2">Queue</h3>
             <p className="px-6 text-center">

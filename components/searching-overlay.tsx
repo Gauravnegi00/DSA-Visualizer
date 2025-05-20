@@ -2,8 +2,8 @@
 
 export default function SearchingOverlay() {
   return (
-    <div className="absolute w-full top-[220px] h-[70%] flex flex-col items-center">
-      <h3 className="text-[35px]">What is Searching?</h3>
+    <div className="absolute w-full top-[220px] h-[70%] flex flex-col items-center mt-20">
+      <h3 className="text-[35px] mt-10">What is Searching?</h3>
       <p className="w-[89%] tracking-[1px] text-xl">
         Searching refers to the process of finding a specific element or value within a collection of data. This
         collection can be an array, a list, a tree, or any other data structure. The goal of searching algorithms is to
@@ -12,7 +12,7 @@ export default function SearchingOverlay() {
       </p>
 
       <div className="w-full h-[347px] flex items-center justify-around perspective-1000">
-        <div className="card relative w-[300px] h-[200px] transition-all duration-600 transform-style-preserve-3d perspective-1000 group">
+        <div className="card relative w-[300px] h-[300px] transition-all duration-600 transform-style-preserve-3d perspective-1000 group">
           <div className="cardFront absolute w-full h-full flex flex-col items-center backface-hidden transition-all duration-500 bg-white/30 rounded-2xl shadow-lg backdrop-blur-sm border border-white">
             <h3 className="w-full h-[50px] text-center text-[35px] mt-2">Linear search</h3>
             <p className="px-6 text-center">
@@ -30,7 +30,7 @@ export default function SearchingOverlay() {
           </div>
         </div>
 
-        <div className="card relative w-[300px] h-[200px] transition-all duration-600 transform-style-preserve-3d perspective-1000 group">
+        <div className="card relative w-[300px] h-[300px] transition-all duration-600 transform-style-preserve-3d perspective-1000 group">
           <div className="cardFront absolute w-full h-full flex flex-col items-center backface-hidden transition-all duration-500 bg-white/30 rounded-2xl shadow-lg backdrop-blur-sm border border-white">
             <h3 className="w-full h-[50px] text-center text-[35px] mt-2">Binary search</h3>
             <p className="px-6 text-center">

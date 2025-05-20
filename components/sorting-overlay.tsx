@@ -2,16 +2,16 @@
 
 export default function SortingOverlay() {
   return (
-    <div className="absolute w-full top-[220px] h-[70%] flex flex-col items-center">
+    <div className="absolute w-full top-[220px] h-[70%] flex flex-col items-center mt-5">
       <h3 className="text-[35px]">What is sorting?</h3>
-      <p className="w-[89%] tracking-[1px] text-xl">
+      <p className="w-[89%] tracking-[1px] text-xl mt-5">
         Sorting refers to the process of arranging elements in a particular order based on some key or comparison
         criteria. Sorting is a fundamental operation in DSA and plays a crucial role in various algorithms and
         applications. The goal of sorting is to make data more organized, easier to search, and faster to access.
       </p>
 
-      <div className="w-full h-[347px] flex items-center justify-around perspective-1000">
-        <div className="card relative w-[300px] h-[200px] transition-all duration-600 transform-style-preserve-3d perspective-1000 group">
+      <div className="w-full h-[347px] flex items-center justify-around perspective-1000 mt-12">
+        <div className="card relative w-[300px] h-[300px] transition-all duration-600 transform-style-preserve-3d perspective-1000 group">
           <div className="cardFront absolute w-full h-full flex flex-col items-center backface-hidden transition-all duration-500 bg-white/30 rounded-2xl shadow-lg backdrop-blur-sm border border-white">
             <h3 className="w-full h-[50px] text-center text-[35px] mt-2">Bubble Sort</h3>
             <p className="px-6 text-center">
@@ -31,7 +31,7 @@ export default function SortingOverlay() {
           </div>
         </div>
 
-        <div className="card relative w-[300px] h-[200px] transition-all duration-600 transform-style-preserve-3d perspective-1000 group">
+        <div className="card relative w-[300px] h-[300px] transition-all duration-600 transform-style-preserve-3d perspective-1000 group">
           <div className="cardFront absolute w-full h-full flex flex-col items-center backface-hidden transition-all duration-500 bg-white/30 rounded-2xl shadow-lg backdrop-blur-sm border border-white">
             <h3 className="w-full h-[50px] text-center text-[35px] mt-2">Selection Sort</h3>
             <p className="px-6 text-center">
@@ -50,7 +50,7 @@ export default function SortingOverlay() {
           </div>
         </div>
 
-        <div className="card relative w-[300px] h-[200px] transition-all duration-600 transform-style-preserve-3d perspective-1000 group">
+        <div className="card relative w-[300px] h-[300px] transition-all duration-600 transform-style-preserve-3d perspective-1000 group">
           <div className="cardFront absolute w-full h-full flex flex-col items-center backface-hidden transition-all duration-500 bg-white/30 rounded-2xl shadow-lg backdrop-blur-sm border border-white">
             <h3 className="w-full h-[50px] text-center text-[35px] mt-2">Quick Sort</h3>
             <p className="px-6 text-center">

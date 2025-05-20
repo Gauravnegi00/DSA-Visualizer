@@ -13,7 +13,6 @@ import { useToast } from "@/components/ui/use-toast"
 export default function Home() {
   const { toast } = useToast()
 
-  // Make toastr available globally for components
   useEffect(() => {
     // @ts-ignore
     window.toastr = {
@@ -44,6 +43,7 @@ export default function Home() {
           <DsaSection />
         </div>
       </div>
+      <AboutSection />
       <Toaster />
     </main>
   )

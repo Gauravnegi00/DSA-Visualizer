@@ -274,19 +274,19 @@ export default function DsaSection() {
   }
 
   return (
-    <div id="dataStructure-section" className="relative top-[100px] w-full min-h-[calc(98vh-60px)] mt-[60px] pb-16">
+    <div id="dataStructure-section" className="relative  w-full min-h-[calc(98vh-60px)] mt-[130px] pb-16">
       {showOverlay && <DsaOverlay />}
 
-      <div className="mx-auto text-center mb-10">
+      <div className="text-center p-0">
         <h1 className="text-4xl font-bold">Data Structure Visualizer</h1>
       </div>
 
-      <div className="max-w-5xl mx-auto mb-8">
+      <div className="max-w-5xl mx-auto ">
         <div className="flex flex-col items-center gap-8">
           <div className="w-full flex justify-center mb-4">
             <select
               id="data-structure-input"
-              className="w-[185px] h-[55px] text-xl p-[5px] rounded-lg bg-transparent text-white border border-primary focus:border-accent focus:outline-none focus:ring-1 focus:ring-accent transition-all"
+              className="w-[185px] h-[55px] text-xl p-[5px] rounded-lg bg-transparent text-white border border-primary focus:border-accent focus:outline-none focus:ring-1 focus:ring-accent transition-all "
               value={selectedDsa}
               onChange={(e) => selectDsa(e.target.value)}
             >
@@ -369,9 +369,9 @@ export default function DsaSection() {
                 value={queueOperation}
                 onChange={(e) => setQueueOperation(e.target.value)}
               >
-                <option value="push">Push</option>
-                <option value="pop">Pop</option>
-                <option value="peek">Peek</option>
+                <option className="text-black" value="push">Push</option>
+                <option className="text-black"  value="pop">Pop</option>
+                <option className="text-black"  value="peek">Peek</option>
               </select>
               {queueOperation === "push" && (
                 <input

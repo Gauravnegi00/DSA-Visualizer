@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from "react"
 import Link from "next/link"
-import Image from "next/image"
 import { Instagram, Linkedin, Github } from "lucide-react"
 
 export default function Navbar() {
@@ -30,13 +29,6 @@ export default function Navbar() {
         scrolled ? "shadow-md shadow-black/30 bg-secondary/95 backdrop-blur-sm" : ""
       }`}
     >
-      <Image
-        src="/placeholder.svg?height=100&width=100"
-        alt="logo"
-        width={100}
-        height={100}
-        className="cursor-pointer transition-all duration-300 hover:animate-[flip_1s_linear] ml-4"
-      />
       <div className="ml-[18%] w-[80%]">
         <ul className="flex gap-[35px]">
           <li className="list-none font-normal tracking-[5px] cursor-pointer text-lg">
@@ -103,7 +95,7 @@ export default function Navbar() {
       </div>
       <div className="w-[350px] h-full flex items-center gap-[25px] text-2xl cursor-pointer transition-all duration-700">
         <a
-          href="https://www.instagram.com/divyanshurajwar/?utm_source=qr&igsh=MTd2bjFlbnRxY3BxOQ%3D%3D"
+          href=""
           target="_blank"
           className="text-white hover:scale-[1.3] hover:text-accent transition-all duration-300"
           rel="noreferrer"
@@ -111,7 +103,7 @@ export default function Navbar() {
           <Instagram />
         </a>
         <a
-          href="https://www.linkedin.com/in/divyanshu-rajwar-159804259/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          href=""
           target="_blank"
           className="text-white hover:scale-[1.3] hover:text-accent transition-all duration-300"
           rel="noreferrer"
@@ -119,7 +111,7 @@ export default function Navbar() {
           <Linkedin />
         </a>
         <a
-          href="https://github.com/DivyanshuRajwar"
+          href=""
           target="_blank"
           className="text-white hover:scale-[1.3] hover:text-accent transition-all duration-300"
           rel="noreferrer"
